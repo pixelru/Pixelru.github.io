@@ -142,6 +142,7 @@ img {
   padding-top: 100px;
   padding-bottom: 70px; }
 
+  
 /* :: 3.4.0 Preloader */
 .preloader {
   background-color: #688bfe;
@@ -409,6 +410,16 @@ img {
       box-shadow: 0 0 50px rgba(0, 0, 0, 0.15);
       border: 2px solid #ff7902; }
 
+
+      .text-send {
+        color:#ffffff;
+        text-align: center;
+        font-size: 20px;
+        line-height: 1.5;
+      }
+hr {
+  border: 3px solid black;
+}
 /* :: 4.0 Header Area CSS */
 .header-area {
   position: absolute;
@@ -1373,7 +1384,7 @@ img {
         position: relative;
         z-index: 1; }
         .single-price-table-area .price-value h2 span:first-child::after {
-          content: '$';
+          content: '₽';
           font-size: 30px;
           position: absolute;
           top: 23px;
