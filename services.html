@@ -2,448 +2,177 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="description" content="">
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Box personal portfolio Template</title>
+    <link rel="icon" href="img/fav.png" type="image/x-icon">
 
-    <!-- Title -->
-    <title>Pixel - Digital Agency HTML Template</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="ionicons/css/ionicons.min.css" rel="stylesheet">
 
-    <!-- Favicon -->
-    <link rel="icon" href="img/core-img/favicon.ico">
+    <!-- main css -->
+    <link href="css/style.css" rel="stylesheet">
 
-    <!-- Stylesheet -->
-    <link rel="stylesheet" href="style.css">
 
+    <!-- modernizr -->
+    <script src="js/modernizr.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
 </head>
 
 <body>
+
     <!-- Preloader -->
-    <div class="preloader d-flex align-items-center justify-content-center">
-        <div class="lds-ellipsis">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
+    <div id="preloader">
+        <div class="pre-container">
+            <div class="spinner">
+                <div class="double-bounce1"></div>
+                <div class="double-bounce2"></div>
+            </div>
+        </div>
+    </div>
+    <!-- end Preloader -->
+
+    <div class="container-fluid">
+        <!-- box header -->
+        <header class="box-header">
+            <div class="box-logo">
+                <a href="index.html"><img src="img/logo.png" width="80" alt="Logo"></a>
+            </div>
+            <!-- box-nav -->
+            <a class="box-primary-nav-trigger" href="#0">
+                <span class="box-menu-text">Menu</span><span class="box-menu-icon"></span>
+            </a>
+            <!-- box-primary-nav-trigger -->
+        </header>
+        <!-- end box header -->
+
+        <!-- nav -->
+        <nav>
+            <ul class="box-primary-nav">
+                <li class="box-label">About me</li>
+
+                <li><a href="index.html">Intro</a></li>
+                <li><a href="about.html">About me</a></li>
+                <li><a href="services.html">services</a> <i class="ion-ios-circle-filled color"></i></li>
+                <li><a href="portfolio.html">portfolio</a></li>
+                <li><a href="contact.html">contact me</a></li>
+
+
+
+                <li class="box-label">Follow me</li>
+
+                <li class="box-social"><a href="#0"><i class="ion-social-facebook"></i></a></li>
+                <li class="box-social"><a href="#0"><i class="ion-social-instagram-outline"></i></a></li>
+                <li class="box-social"><a href="#0"><i class="ion-social-twitter"></i></a></li>
+                <li class="box-social"><a href="#0"><i class="ion-social-dribbble"></i></a></li>
+            </ul>
+        </nav>
+        <!-- end nav -->
+    </div>
+
+    <!-- top bar -->
+    <div class="top-bar">
+        <h1>services</h1>
+        <p><a href="#">Home</a> / Services</p>
+    </div>
+    <!-- end top bar -->
+
+    <div class="container main-container">
+        <div class="clearfix">
+
+            <!-- service-box -->
+            <div class="col-md-4 service-box">
+                <i class="ion-android-favorite-outline size-50"></i>
+                <h3>Responsive Design</h3>
+                <div class="h-10"></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliter enim nosmet ipsos nosse non possumus. Inscite autem medicinae </p>
+            </div>
+            <!-- end service-box -->
+
+            <!-- service-box -->
+            <div class="col-md-4 service-box">
+                <i class="ion-android-options size-50"></i>
+                <h3>Easy Customization</h3>
+                <div class="h-10"></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliter enim nosmet ipsos nosse non possumus. Inscite autem medicinae </p>
+            </div>
+            <!-- end service-box -->
+
+            <!-- service-box -->
+            <div class="col-md-4  service-box">
+                <i class="ion-android-checkmark-circle size-50"></i>
+                <h3>Creative Design</h3>
+                <div class="h-10"></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliter enim nosmet ipsos nosse non possumus. Inscite autem medicinae </p>
+            </div>
+            <!-- end service-box -->
+
+            <!-- service-box -->
+            <div class="col-md-4  service-box">
+                <i class="ion-ios-pulse-strong size-50"></i>
+                <h3>user friendly</h3>
+                <div class="h-10"></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliter enim nosmet ipsos nosse non possumus. Inscite autem medicinae </p>
+            </div>
+            <!-- end service-box -->
+
+            <!-- service-box -->
+            <div class="col-md-4  service-box">
+                <i class="ion-earth size-50"></i>
+                <h3>fully customizible</h3>
+                <div class="h-10"></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliter enim nosmet ipsos nosse non possumus. Inscite autem medicinae </p>
+            </div>
+            <!-- end service-box -->
+
+            <!-- service-box -->
+            <div class="col-md-4  service-box">
+                <i class="ion-speedometer size-50"></i>
+                <h3>retina ready</h3>
+                <div class="h-10"></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliter enim nosmet ipsos nosse non possumus. Inscite autem medicinae </p>
+            </div>
+            <!-- end service-box -->
+
         </div>
     </div>
 
-    <!-- ##### Header Area Start ##### -->
-    <header class="header-area">
-        <!-- Navbar Area -->
-        <div class="pixel-main-menu" id="sticker">
-            <div class="classy-nav-container breakpoint-off">
-                <div class="container-fluid">
-                    <!-- Menu -->
-                    <nav class="classy-navbar justify-content-between" id="pixelNav">
 
-                        <!-- Nav brand -->
-                        <a href="index.html" class="nav-brand"><img src="img/core-img/logo.png" alt=""></a>
-
-                        <!-- Navbar Toggler -->
-                        <div class="classy-navbar-toggler">
-                            <span class="navbarToggler"><span></span><span></span><span></span></span>
-                        </div>
-
-                        <!-- Menu -->
-                        <div class="classy-menu">
-
-                            <!-- Close Button -->
-                            <div class="classycloseIcon">
-                                <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
-                            </div>
-
-                            <!-- Nav Start -->
-                            <div class="classynav">
-                                <ul>
-                                    <li><a href="index.html">Главная</a></li>
-                                    <li><a href="about.html">О нас</a></li>
-                                    <li><a href="services.html">Услуги</a></li>
-                                    <li><a href="portfolio.html">Мои работы</a>
-                                        <ul class="dropdown">
-                                            <li><a href="index.html">Логотипы</a></li>
-                                            <li><a href="about.html">Дизайн</a></li>
-                                            <li><a href="services.html">Продвижение</a>
-                                                <ul class="dropdown">
-                                                    <li><a href="index.html">SEO</a></li>
-                                                    <li><a href="about.html">Instagram</a></li>
-                                                    <li><a href="services.html">Vk</a></li>
-                                                    <li><a href="portfolio.html">YouTube</a>
-                                                    <li><a href="portfolio.html">Контексная реклама</a>
-                                                        <!-- <ul class="dropdown">
-                                                            <li><a href="index.html">Home</a></li>
-                                                            <li><a href="1.html">Мои работы</a></li>
-                                                            <li><a href="services.html">Services</a></li>
-                                                            <li><a href="contact.html">Contact</a></li>
-                                                            <li><a href="elements.html">Elements</a></li>
-                                                        </ul>
-                                                        -->
-                                                    </li>
-
-                                                </ul>
-                                            </li>
-                                            <li><a href="portfolio.html">Портфолио</a></li>
-                                        </ul>
-                                    </li>
-                                    <!-- <li><a href="#">Mega</a>
-                                        <div class="megamenu">
-                                            <ul class="single-mega cn-col-4">
-                                                <li><a href="index.html">Home</a></li>
-                                                <li><a href="about.html">About Us</a></li>
-                                                <li><a href="services.html">Services</a></li>
-                                                <li><a href="portfolio.html">Portfolio</a></li>
-                                                <li><a href="contact.html">Contact</a></li>
-                                                <li><a href="elements.html">Elements</a></li>
-                                            </ul>
-                                            <ul class="single-mega cn-col-4">
-                                                <li><a href="index.html">Home</a></li>
-                                                <li><a href="about.html">About Us</a></li>
-                                                <li><a href="services.html">Services</a></li>
-                                                <li><a href="portfolio.html">Portfolio</a></li>
-                                                <li><a href="contact.html">Contact</a></li>
-                                                <li><a href="elements.html">Elements</a></li>
-                                            </ul>
-                                            <ul class="single-mega cn-col-4">
-                                                <li><a href="index.html">Home</a></li>
-                                                <li><a href="about.html">About Us</a></li>
-                                                <li><a href="services.html">Services</a></li>
-                                                <li><a href="portfolio.html">Portfolio</a></li>
-                                                <li><a href="contact.html">Contact</a></li>
-                                                <li><a href="elements.html">Elements</a></li>
-                                            </ul>
-                                            <ul class="single-mega cn-col-4">
-                                                <li><a href="index.html">Home</a></li>
-                                                <li><a href="about.html">About Us</a></li>
-                                                <li><a href="services.html">Services</a></li>
-                                                <li><a href="portfolio.html">Portfolio</a></li>
-                                                <li><a href="contact.html">Contact</a></li>
-                                                <li><a href="elements.html">Elements</a></li>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                    -->
-                                    <li><a href="contact.html">Контакты</a></li>
-                                </ul>
-
-                                <!-- Top Social Info -->
-                                <div class="top-social-info ml-5">
-                                    <a href="#"><i class="fa fa-facebook"></i></a>
-
-                                    <a href="#"><i class="fa fa-instagram"></i></a>
-                                    <a href="#"><i class="fa fa-linkedin"></i></a>
-                                    <a href="https://www.pinterest.ru/bazarovjenka7/_saved/"><i
-                                            class="fa fa-pinterest"></i></a>
-                                </div>
-                            </div>
-                            <!-- Nav End -->
-                        </div>
-                    </nav>
-                </div>
-            </div>
-        </div>
-    </header>
-    <!-- ##### Header Area End ##### -->
-
-    <!-- ##### Breadcrumb Area Start ##### -->
-    <section class="breadcrumb-area bg-img bg-overlay jarallax" style="background-image: url(img/bg-img/8.jpg);">
-        <div class="container-fluid h-100">
-            <div class="row h-100 align-items-center">
-                <div class="col-12">
-                    <div class="breadcrumb-content">
-                        <h2>Услуги</h2>
-                    </div>
-                    <div class="text-send">Наша студия оказывает довольно обширный список услуг, но при этом мы никогда
-                        нработы, которые не можем сделать качественно. 
-                        
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- ##### Breadcrumb Area End ##### -->
-
-    <!-- ##### Services Catagory Area Start ##### -->
-    <div class="services-catagory-area d-flex flex-wrap">
-        <!-- Single Service Catagory -->
-        <div class="single-service-cata bg-img d-flex align-items-center justify-content-center jarallax"
-            style="background-image: url(img/bg-img/19.jpg);">
-            <a href="#">Landing Page</a>
-        </div>
-        <!-- Single Service Catagory -->
-        <div class="single-service-cata bg-img d-flex align-items-center justify-content-center jarallax"
-            style="background-image: url(img/bg-img/20.jpg);">
-            <a href="#">Разработка<br>логотипа</a>
-        </div>
-        <!-- Single Service Catagory -->
-        <div class="single-service-cata bg-img d-flex align-items-center justify-content-center jarallax"
-            style="background-image: url(img/bg-img/21.jpg);">
-            <a href="#">Адаптивная <br> вёрстка</a>
-        </div>
-    </div>
-    <!-- ##### Services Catagory Area End ##### -->
-
-    <!-- ##### Services Block Area Start ##### -->
-    <section class="services-block-area section-padding-100-0">
-        <div class="container">
-            <div class="row">
-                <!-- Single Service Block -->
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="single-service-block mb-100 wow fadeInUp" data-wow-delay="100ms">
-                        <h4>Landing Page</h4>
-                        <p>landing page, также «посадочная страница») — веб-страница, основной задачей которой является
-                            сбор контактных данных целевой аудитории. Используется для усиления эффективности рекламы,
-                            увеличения аудитории. ... Анализ действий пользователей на целевой странице позволяет
-                            маркетологам определить успешность рекламы.</p>
-                    </div>
-                </div>
-                <!-- Single Service Block -->
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="single-service-block mb-100 wow fadeInUp" data-wow-delay="300ms">
-                        <h4>Разработка логотипа</h4>
-                        <p>Профессиональная разработка логотипа предполагает тщательное изучение рынка и конкурентного
-                            окружения вашего бренда. Только такой подход позволяет разработать логотип, который поможет
-                            бренду эффективно работать в своем сегменте, выгодно отстроиться от конкурентов, сохранив
-                            при этом индивидуальность и узнаваемость..</p>
-                    </div>
-                </div>
-                <!-- Single Service Block -->
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="single-service-block mb-100 wow fadeInUp" data-wow-delay="500ms">
-                        <h4>Адаптивная вёрстка</h4>
-                        <p>Адаптивная вёрстка меняет дизайн страницы в зависимости от поведения пользователя, платформы,
-                            размера экрана и ориентации девайса и является неотъемлемой частью современной
-                            веб-разработки. Она позволяет существенно экономить и не отрисовывать новый дизайн для
-                            каждого разрешения, а менять размеры и расположение отдельных элементов.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- ##### Services Block Area End ##### -->
-
-    <!-- ##### Prices Area Start ##### -->
-    <section class="pixel-prices-area d-flex flex-wrap section-padding-100">
-
-        <!-- Single Price Table Area -->
-        <div class="single-price-table-area mb-100">
-            <div class="price-value">
-                <h2><span>500</span><span>до 2000 р</span></h2>
-            </div>
-            <h2>Бронзовый пакет</h2>
-            <p>Все обсуждается при создаине плана проекта</p>
-            <ul class="price-desc">
-                <li><img src="img/core-img/correct.png" alt=""> Шаблон</li>
-                <li><img src="img/core-img/correct.png" alt=""> Кроссбраузерность</li>
-                <li><img src="img/core-img/correct.png" alt=""> Десктоп</li>
-                <li><img src="img/core-img/caution.png" alt=""> Хостинг на 1 год</li>
-                <li><img src="img/core-img/correct.png" alt=""> Без CMS</li>
-            </ul>
-            <a href="#" class="btn pixel-btn">Заказать пакет</a>
-        </div>
-
-        <!-- Single Price Table Area -->
-        <div class="single-price-table-area mb-100">
-            <div class="price-value">
-                <h2><span>2000</span><span>до 3000 р</span></h2>
-            </div>
-            <h2> Серебряный пакет</h2>
-            <p>Присутствует индивидуальный проект, возможно дополнение.Добавляем систему управление.</p>
-            <ul class="price-desc">
-                <li><img src="img/core-img/correct.png" alt=""> Индивидуальный дизайн</li>
-                <li><img src="img/core-img/correct.png" alt=""> Кроссбраузерность</li>
-                <li><img src="img/core-img/correct.png" alt=""> Десктоп+мобилка</li>
-                <li><img src="img/core-img/caution.png" alt=""> Хостинг на 3 года</li>
-                <li><img src="img/core-img/correct.png" alt=""> WordPress</li>
-            </ul>
-            <a href="#" class="btn pixel-btn">Заказать пакет</a>
-        </div>
-
-        <!-- Single Price Table Area -->
-        <div class="single-price-table-area active mb-100">
-            <div class="price-value">
-                <h2><span>3000</span><span>до 7000 р</span></h2>
-            </div>
-            <h2>Золотой пакет</h2>
-            <p>Есть возможность добавить на выбор любые функции.</p>
-            <ul class="price-desc">
-                <li><img src="img/core-img/correct.png" alt=""> Индивидуальный дизайн</li>
-                <li><img src="img/core-img/correct.png" alt=""> Кроссбраузерность</li>
-                <li><img src="img/core-img/correct.png" alt=""> Десктоп+мобилка+планшет</li>
-                <li><img src="img/core-img/caution.png" alt=""> Хостинг безлимит
-                </li>
-                <li><img src="img/core-img/correct.png" alt=""> Индивидуальный СУ</li>
-                <li><img src="img/core-img/correct.png" alt=""> SEO Продвижение</li>
-            </ul>
-            <a href="#" class="btn pixel-btn">Заказать пакет</a>
-        </div>
-
-        <!-- Single Price Table Area -->
-        <div class="single-price-table-area mb-100">
-            <div class="price-value">
-                <h2><span>7000</span><span>до 12000 р</span></h2>
-            </div>
-            <h2>Платиум пакет</h2>
-            <p>landing Page полностью под ключ, с 0 до продаж.</p>
-            <ul class="price-desc">
-                <li><img src="img/core-img/correct.png" alt=""> Индивидуальный дизайн</li>
-                <li><img src="img/core-img/correct.png" alt=""> Кроссбраузерность</li>
-                <li><img src="img/core-img/correct.png" alt=""> Десктоп+мобилка+планшет</li>
-                <li><img src="img/core-img/caution.png" alt=""> Хостинг безлимит</li>
-                <li><img src="img/core-img/correct.png" alt=""> SEO Продвижение</li>
-                <li><img src="img/core-img/correct.png" alt=""> Приложение</li>
-            </ul>
-            <a href="#" class="btn pixel-btn">Заказать пакет</a>
-        </div>
-
-    </section>
-    <!-- ##### Prices Area End ##### -->
-
-    <!-- ##### Service Area Start ##### -->
-    <section class="pixel-service-area">
-        <div class="container">
-            <div class="row">
-                <!-- Single Service Area -->
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="single-service-area text-center mb-100 wow fadeInUp" data-wow-delay="100ms">
-                        <img src="img/core-img/cursor.png" alt="">
-                        <h5>Поисковая оптимизация</h5>
-                        <p>Увеличиваем трафик из поисковой выдачи, повышаем конверсии, снижаем затраты на привлечение
-                            клиентов.</p>
-                        <a href="#" class="btn">Читать</a>
-                    </div>
-                </div>
-
-                <!-- Single Service Area -->
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="single-service-area text-center mb-100 wow fadeInUp" data-wow-delay="200ms">
-                        <img src="img/core-img/monitor.png" alt="">
-                        <h5>SMM</h5>
-                        <p>Привлекаем новых клиентов, улучшаем имидж и узнаваемость компании в социальных сетях.</p>
-                        <a href="#" class="btn">Читать</a>
-                    </div>
-                </div>
-
-                <!-- Single Service Area -->
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="single-service-area text-center mb-100 wow fadeInUp" data-wow-delay="300ms">
-                        <img src="img/core-img/presentation.png" alt="">
-                        <h5>Контексная реклама</h5>
-                        <p>Приводим на сайт целевых клиентов и возвращаем тех, кто однажды его покинул.</p>
-                        <a href="#" class="btn">Читать</a>
-                    </div>
-                </div>
-
-                <!-- Single Service Area -->
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="single-service-area text-center mb-100 wow fadeInUp" data-wow-delay="400ms">
-                        <img src="img/core-img/settings.png" alt="">
-                        <h5>Аналитика</h5>
-                        <p>Изучаем ваших клиентов, конкурентов и маркетинговые активности, чтобы достичь лучших
-                            результатов продвижения.</p>
-                        <a href="#" class="btn">Читать</a>
-                    </div>
-                </div>
-                <!-- Single Service Area -->
-
-            </div>
-        </div>
-    </section>
-    <!-- ##### Service Area End ##### -->
-
-    <!-- ##### Footer Area Start ##### -->
-    <footer class="footer-area section-padding-100-0">
+    <!-- footer -->
+    <footer>
         <div class="container-fluid">
-            <div class="row justify-content-between">
-
-                <!-- Single Footer Widget -->
-                <div class="col-12 col-sm-6 col-md-3">
-                    <div class="single-footer-widget mb-100">
-                        <!-- Footer Logo -->
-                        <a href="index.html" class="footer-logo"><img src="img/core-img/logo.png" alt=""></a>
-                    </div>
-                </div>
-
-                <!-- Single Footer Widget -->
-                <div class="col-12 col-md-9 col-lg-8 col-xl-7">
-                    <div class="row">
-                        <!-- Single Footer Widget -->
-                        <div class="col-sm-4">
-                            <div class="single-footer-widget mb-100">
-                                <h5 class="widget-title">Адрес</h5>
-                                <p>Казань</p>
-                            </div>
-                        </div>
-
-                        <!-- Single Footer Widget -->
-                        <div class="col-sm-4">
-                            <div class="single-footer-widget mb-100">
-                                <h5 class="widget-title">Телефон</h5>
-                                <p><i class="fa fa-phone"></i>+7-927-323-1000</p>
-                            </div>
-                        </div>
-
-                        <!-- Single Footer Widget -->
-                        <div class="col-sm-4">
-                            <div class="single-footer-widget mb-100">
-                                <h5 class="widget-title">Подпишись</h5>
-                                <div class="footer-social-info">
-                                    <a href="#"><i class="fa fa-facebook"></i></a>
-                                    <a href="#"><i class="fa fa-instagram"></i></a>
-                                    <a href="#"><i class="fa fa-pinterest"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Copywrite Area -->
-        <div class="copywrite-area">
-            <div class="container-fluid">
-                <div class="row align-items-center">
-                    <div class="col-12 col-md-6">
-                        <div class="copywrite-content">
-                            <!-- Copywrite Text -->
-                            <p class="copywrite-text">
-                                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                                Copyright &copy;
-                                <script>document.write(new Date().getFullYear());</script><i class="fa fa-heart-o"
-                                    aria-hidden="true"></i>
-                                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6">
-                        <nav class="footer-nav">
-                            <ul>
-                                <li><a href="#">Главная</a></li>
-                                <li><a href="#">О нас</a></li>
-                                <li><a href="#">Сервис</a></li>
-                                <li><a href="#">Проекты</a></li>
-                                <li><a href="#">Контакты</a></li>
-                            </ul>
-                        </nav>
-                    </div>
-                </div>
-            </div>
+            <p class="copyright">© Box Portfolio 2016</p>
         </div>
     </footer>
-    <!-- ##### Footer Area Start ##### -->
+    <!-- end footer -->
 
-    <!-- ##### All Javascript Script ##### -->
-    <!-- jQuery-2.2.4 js -->
-    <script src="js/jquery/jquery-2.2.4.min.js"></script>
-    <!-- Popper js -->
-    <script src="js/bootstrap/popper.min.js"></script>
-    <!-- Bootstrap js -->
-    <script src="js/bootstrap/bootstrap.min.js"></script>
-    <!-- All Plugins js -->
-    <script src="js/plugins/plugins.js"></script>
-    <!-- Active js -->
-    <script src="js/active.js"></script>
+    <!-- back to top -->
+    <a href="#0" class="cd-top"><i class="ion-android-arrow-up"></i></a>
+    <!-- end back to top -->
+
+
+
+    <!-- jQuery -->
+    <script src="js/jquery-2.1.1.js"></script>
+    <!--  plugins -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/animated-headline.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+
+
+    <!--  custom script -->
+    <script src="js/custom.js"></script>
+
 </body>
 
 </html>
